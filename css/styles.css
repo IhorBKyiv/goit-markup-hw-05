@@ -193,12 +193,12 @@ img{
 }
 
 
-.link-studio{
+.item-studio{
     margin-right: 50px;
     position: relative;
 }
 
-.link-studio::after{
+.item-studio::after{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -781,12 +781,12 @@ h4{
 
 /* portfolio-link */
 
-.link-portfolio {
+.item-portfolio {
     margin-right: 50px;
     position: relative;
 }
 
-.link-portfolio::after {
+.item-portfolio::after {
     position: absolute;
     left: 50%;
     top: 50%;
