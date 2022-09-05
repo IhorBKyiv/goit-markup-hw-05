@@ -64,7 +64,11 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <p></p>
-                    <button data-modal-close>Закрити</button>
+                    <button class="close-button" data-modal-close>
+                            <svg class="svg-button" width="11" height="11">
+                                <use href="./images/close.svg#icon-Vector-1"></use>
+                            </svg>
+                    </button>
                 </div>
             </div>
         </section>
@@ -120,18 +124,20 @@
             <div class="container">
             <h2 class="services-title title">Чим ми займаємося</h2>
             <ul class="services-list">
-                <div class="services-div">
-                <li class="item"><img src="./images/services/services1.jpg" alt="Діджиталізація" width="370" height="294"></li>
-                <p class="services-text">Десктопні додатки</p>
-                </div>
-                <div class="services-div">
-                <li class="item"><img src="./images/services/services2.jpg" alt="Адаптація" width="370" height="294"></li>
-                <p class="services-text">Мобільні додатки</p>
-                </div>
-                <div class="services-div">
-                <li class="item"><img src="./images/services/services3.jpg" alt="Веб-дизайн" width="370" height="294"></li>
-                <p class="services-text">Дизайнерські рішення</p>
-                </div>
+                <li class="item">
+                    <div class="services-div"><img src="./images/services/services1.jpg" alt="Діджиталізація" width="370" height="294">
+                <p class="services-text desktop">Десктопні додатки</p></div>
+                </li>
+                <li class="item">
+                    <div class="services-div">
+                        <img src="./images/services/services2.jpg" alt="Адаптація" width="370" height="294">
+                        <p class="services-text mobile">Мобільні додатки</p></div>
+                </li>
+                <li class="item">
+                    <div class="services-div">
+                        <img src="./images/services/services3.jpg" alt="Веб-дизайн" width="370" height="294">
+                        <p class="services-text design">Дизайнерські рішення</p></div>
+                    </li>
             </ul>
             </div>
         </section>
